@@ -2,7 +2,7 @@ var corpo = document.body;
 corpo.style.backgroundColor = 'black';
 corpo.style.color = 'white';
 function velocidadeAtual(){
-    var velocidade = document.getElementById('Nvelocidade').value;
+    var velocidade = Number(document.getElementById('Nvelocidade').value);
     var velocidadeMedia = 60;
     var mostrarResultado = document.getElementById('mostrarResultado');
     if(velocidade == velocidadeMedia){
